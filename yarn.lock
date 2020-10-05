@@ -6538,13 +6538,6 @@ debug@3.1.0, debug@=3.1.0, debug@~3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.0.tgz#373687bffa678b38b1cd91f861b63850035ddc87"
-  integrity sha512-heNPJUJIqC+xB6ayLAMHaIrmN9HKa7aQO8MGqKpvCA+uJYVcvR6l5kgdrhRuwPFHU7P5/A1w0BjByPHwpfTDKg==
-  dependencies:
-    ms "^2.1.1"
-
 debug@^3.0.0, debug@^3.1.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -10448,6 +10441,11 @@ is-wsl@^2.1.1:
   dependencies:
     is-docker "^2.0.0"
 
+is_js@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/is_js/-/is_js-0.9.0.tgz#0ab94540502ba7afa24c856aa985561669e9c52d"
+  integrity sha1-CrlFQFArp6+iTIVqqYVWFmnpxS0=
+
 isarray@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
@@ -11362,13 +11360,14 @@ koa-i18n@^2.1.0:
     debug "*"
     i18n-2 "*"
 
-koa-ip@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/koa-ip/-/koa-ip-2.0.0.tgz#6cafdc5c5678a15746e4676d2ebf8ae63e981c5c"
-  integrity sha512-igMBgeZ4o62KRbLYP2RvqjfaFnZLJT+NwJZQ8xywOpcJERM8mgsx+BPetmBHpp45lbWswNjofv7ed5OB3DqBeg==
+koa-ip@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/koa-ip/-/koa-ip-2.1.0.tgz#e684e8f8810a77321ee456c50d542216a4a9ccc1"
+  integrity sha512-3gpcu8i2YFR0jf8j98Mw2yUAglu3powVxFiYQGMe89n6JGGVIg6dv7zRMN+l8HF3wdiLseAfj2C97h+wlJAw4Q==
   dependencies:
-    debug "4.1.0"
+    debug "4.1.1"
     lodash.isplainobject "4.0.6"
+    request-ip "2.1.3"
 
 koa-is-json@^1.0.0:
   version "1.0.0"
@@ -15999,6 +15998,13 @@ request-compose@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/request-compose/-/request-compose-2.1.0.tgz#2064e886a7745a6af425609aa116ebfeffc1792d"
   integrity sha512-mIWvU9HA2whb/fHcqeQ0LQXAImCGISqUPyjuFF2rALhym2Fu4ebZGv7wxFA78rsJO/fn2OeEaK54TSjwSwRAFw==
+
+request-ip@2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/request-ip/-/request-ip-2.1.3.tgz#99ab2bafdeaf2002626e28083cb10597511d9e14"
+  integrity sha512-J3qdE/IhVM3BXkwMIVO4yFrvhJlU3H7JH16+6yHucadT4fePnR8dyh+vEs6FIx0S2x5TCt2ptiPfHcn0sqhbYQ==
+  dependencies:
+    is_js "^0.9.0"
 
 request-oauth@^1.0.0:
   version "1.0.0"
